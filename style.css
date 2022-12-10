@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-flow: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1F2937;
+    align-items: center;
+}
+.header-links{
+    display: flex;
+    gap: 18px;
+    
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color:#1F2937;
+    display:flex;
+    padding: 16px;
+    justify-content: space-between;
+    width: auto;
+}
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero .text {
+    flex: 1 1 20%;
+}
+
+.lake-image {
+    flex: 1 1 20%;
+}
