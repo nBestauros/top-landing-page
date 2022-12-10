@@ -2,13 +2,17 @@ body {
     display: flex;
     flex-flow: column;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding-block: 16px;
+    padding-inline: 96px;;
     background-color: #1F2937;
     align-items: center;
+    border: 0;
+    margin: 0;
 }
 .header-links{
     display: flex;
@@ -29,20 +33,31 @@ a {
 
 .hero {
     background-color:#1F2937;
-    display:flex;
-    padding: 16px;
-    justify-content: space-between;
-    width: auto;
+    display: flex;
+    padding-block: 16px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 96px;
 }
-.main {
+.hero .main {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
+
+.hero .secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 .hero .text {
     flex: 1 1 20%;
 }
 
 .lake-image {
     flex: 1 1 20%;
+}
+
+img {
+    width: 100%;
 }
