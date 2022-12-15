@@ -97,3 +97,27 @@ img {
     text-align: center;
     color: #1F2937;
 }
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-inline: 216px;
+    padding-block: 96px;
+}
+.quote .text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style:italic;
+    text-align: start;
+}
+
+.quote .attribution {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+    margin-left: auto;
+}
