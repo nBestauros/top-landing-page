@@ -7,8 +7,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-block: 16px;
-    padding-inline: 96px;;
+    padding-inline: 96px;
     background-color: #1F2937;
     align-items: center;
     border: 0;
@@ -34,7 +33,7 @@ a {
 .hero {
     background-color:#1F2937;
     display: flex;
-    padding-block: 16px;
+    padding-block: 96px;
     justify-content: center;
     align-items: center;
     padding-inline: 96px;
@@ -60,4 +59,41 @@ a {
 
 img {
     width: 100%;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 192px;
+    padding-bottom: 96px;
+    
+}
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-block: 32px;
+}
+
+.random-image {
+    flex: 1 1 20%; 
+    min-width: 100px;
+    max-width: 15vw;
+}
+
+.random-image-inner {
+    border: 1px solid #3882F6;
+    border-radius: 15px;
+}
+
+.images {
+    display:flex;
+    gap: 3vmax;
+}
+
+.image-subtext {
+    text-align: center;
+    color: #1F2937;
 }
